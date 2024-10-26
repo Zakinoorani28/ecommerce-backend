@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-import img from "./assets/img.jpg"
 
 const app = express();
 const PORT = 5000;
