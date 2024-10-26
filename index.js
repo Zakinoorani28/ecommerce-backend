@@ -20,7 +20,6 @@ let products = [
     { id: 8, title: "Bose SoundLink", price: 199, description: "Bose SoundLink Bluetooth speaker with deep, powerful sound.", img: "https://tse1.mm.bing.net/th?id=OIP.qC7jTsyppCeBhG3UGUR8sgHaE8&pid=Api&P=0&h=220" },
     { id: 9, title: "Amazon Echo Dot", price: 50, description: "Amazon Echo Dot with Alexa voice assistant.", img: "https://tse3.mm.bing.net/th?id=OIP.Ik0WzFRarbxLZsznXVRitwHaFZ&pid=Api&P=0&h=220" },
     { id: 10, title: "Apple Watch Series 6", price: 399, description: "Apple Watch Series 6 with blood oxygen monitoring and ECG app.", img: "https://tse4.mm.bing.net/th?id=OIP.JFC1t9kN8asZxMWlzJJSzgHaEK&pid=Api&P=0&h=220" },
-    { id: 11, title: "sumsung s21 ultra", price: 349, description: "Apple Watch Series 6 with blood oxygen monitoring and ECG app.", img: {img}}
 ];
 
 app.get('/api/products', (req, res) => {
