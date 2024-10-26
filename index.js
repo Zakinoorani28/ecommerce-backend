@@ -18,7 +18,8 @@ let products = [
     { id: 7, title: "GoPro Hero 9", price: 400, description: "GoPro Hero 9 action camera with 5K video recording and HyperSmooth stabilization.", img: "https://tse3.mm.bing.net/th?id=OIP.Z_2lRzlte4TKKEDYhATUpAHaEK&pid=Api&P=0&h=220" },
     { id: 8, title: "Bose SoundLink", price: 199, description: "Bose SoundLink Bluetooth speaker with deep, powerful sound.", img: "https://tse1.mm.bing.net/th?id=OIP.qC7jTsyppCeBhG3UGUR8sgHaE8&pid=Api&P=0&h=220" },
     { id: 9, title: "Amazon Echo Dot", price: 50, description: "Amazon Echo Dot with Alexa voice assistant.", img: "https://tse3.mm.bing.net/th?id=OIP.Ik0WzFRarbxLZsznXVRitwHaFZ&pid=Api&P=0&h=220" },
-    { id: 10, title: "Apple Watch Series 6", price: 399, description: "Apple Watch Series 6 with blood oxygen monitoring and ECG app.", img: "https://tse4.mm.bing.net/th?id=OIP.JFC1t9kN8asZxMWlzJJSzgHaEK&pid=Api&P=0&h=220" }
+    { id: 10, title: "Apple Watch Series 6", price: 399, description: "Apple Watch Series 6 with blood oxygen monitoring and ECG app.", img: "https://tse4.mm.bing.net/th?id=OIP.JFC1t9kN8asZxMWlzJJSzgHaEK&pid=Api&P=0&h=220" },
+    { id: 11, title: "sumsung s21 ultra", price: 349, description: "Apple Watch Series 6 with blood oxygen monitoring and ECG app.", img: "https://tse4.mm.bing.net/th?id=OIP.i-VJnZag7h4IUTNb6a-7CAHaE7&pid=Api&P=0&h=220"}
 ];
 
 app.get('/api/products', (req, res) => {
